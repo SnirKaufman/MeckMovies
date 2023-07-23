@@ -1,0 +1,47 @@
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 80vw;
+  max-width: 80vw;
+  background-color: #202020;
+  border: 2px solid #000;
+  box-shadow: 24;
+  color: white;
+  text-align: center;
+  font-family: monospace;
+  overflow: auto;
+}
+
+.text {
+  font-size: 1.5rem;
+}
+
+.modal-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+.modal-header p {
+  padding-top: 1rem;
+}
+
+.movie-genres-container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.movie-genres {
+  list-style: none;
+  color: #cc5500;
+}
+
+.modal-rating {
+  padding-bottom: 1rem;
+}

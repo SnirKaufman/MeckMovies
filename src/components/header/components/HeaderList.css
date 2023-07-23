@@ -1,0 +1,58 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav h1 {
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  font-weight: 700;
+  color: #cc5500;
+  font-size: 22px;
+  position: relative;
+  right: 20px;
+}
+.nav a {
+  text-decoration: none;
+}
+.nav ul {
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  display: flex;
+  color: white;
+}
+
+.links {
+  text-decoration: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.links.active {
+  color: #cc5500;
+}
+
+.pageIcon {
+  display: none;
+  color: #cc5500;
+}
+
+@media (max-width: 800px) {
+  .pageName {
+    display: none;
+  }
+
+  .pageIcon {
+    display: flex;
+  }
+  .MeckMovies {
+    font-size: 1.1rem;
+  }
+
+  .btn {
+    display: none;
+  }
+}

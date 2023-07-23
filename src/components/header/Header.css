@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  border-radius: 6px;
+}
+.container h1 {
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  padding: 5px;
+  color: #cc5500;
+  font-size: 22px;
+}
+.container a {
+  text-decoration: none;
+}
+
+.phoneHeader {
+  display: none;
+}
+@media (max-width: 800px) {
+  .phoneHeader {
+    display: flex;
+  }
+  .pcHeader {
+    display: none;
+  }
+}
+
+@media (max-width: 580px) {
+  .container h1 {
+    font-size: 14px;
+  }
+}
